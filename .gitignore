@@ -1,0 +1,5 @@
+# Ignoring ros2 build, install and log folders
+perception_ws/build/
+perception_ws/install/
+perception_ws/log/
+perception_ws/src/assignment2/rosbag_cones/cones.db3
