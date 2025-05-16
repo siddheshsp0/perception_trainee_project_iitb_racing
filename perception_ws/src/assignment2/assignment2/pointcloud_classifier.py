@@ -13,7 +13,7 @@ class PointCloudClassifier(Node):
 
         # # Markers and subscriptions, timers definition
         # self.create_timer(1, self.pub_markers)
-        self.markers_publisher = self.create_publisher(MarkerArray, '/ ', 10)
+        self.markers_publisher = self.create_publisher(MarkerArray, '/cones_pub', 10)
         self.pointcloud_sub = self.create_subscription(PointCloud, '/carmaker/pointcloud', self.pointcloud_callback, 10)
 
 
